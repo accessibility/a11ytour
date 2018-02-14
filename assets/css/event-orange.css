@@ -848,12 +848,12 @@ section#locations {
   content: '';
   position: absolute;
   left: 45%;
-  top: 16px;
+  top: 13px;
   width: 0;
   height: 0;
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 7px solid #9e0808;
+  border-top: 0px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #9e0808;
 }
 
 #timeline .timeline-item .timeline-content.right {
@@ -865,7 +865,7 @@ section#locations {
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 7px solid #9e0808;
+  border-right: 15px solid #9e0808;
 }
 
 @media screen and (max-width: 768px) {
@@ -1021,7 +1021,9 @@ ul.social-buttons li a:active {
   width: 100%;
   display: block;
   text-align: left;
-  padding-left: 17px;
+  padding: 8px 0 8px 22px;
+  white-space: normal;
+  font-size: 24px;
 }
 
 #full-schedule .label-main {
