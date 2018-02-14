@@ -1,97 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Accessibility Camp Tour 2018</title>
-    <meta charset="utf-8">
-    <meta name = "format-detection" content = "telephone=no" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--[if (gt IE 9)|!(IE)]><!-->
-    <!--[if (gt IE 9)|!(IE)]><!-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-        div.intro {
-            margin-left: 30px;
-        }
-        h1,h2 {
-            margin-top: 10px;
-            color: #09477B;
-        }
-        a.btn-primary {
-            background-color: #09477B;
-        }
-        ul.sponsor {
-            list-style-type: none;
-            margin-top: 5px;
-            padding: 0;
-        }
-        li.sponsor {
-            display: inline;
-            padding: 15px;
-        }
-    </style>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favico.ico">
+  <title>Accessibility Camp Tour 2018</title>
 
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/event-orange.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-<section>
-    <div class="container p-2">
-      <img src="img/logo2.jpg" alt="A11yTour Logo" class="img-fluid float-md-left mr-1 col-6 col-sm-3 ml-0 pl-0">
-        
-      <h1 class="mt-0">Accessibility Tour #a11yTour 2018</h1>
-      <p>a11yTour is an accessibility camp event held in both Ottawa and Montreal. <a href="https://www.meetup.com/a11yMTL">a11yMTL</a> and <a href="https://www.meetup.com/a11yOttawa/">a11yYOW</a> are joining forces in 2018 to organize the first ever accessibility camp tour. a11ytour is a one day, one track camp, hosted consecutively in each city. We are hoping to include more cities next year. Let us know if you want your city to join #a11yTour!</p>            
-      <p>a11ytour will start in Ottawa (Carleton University) on February 23rd, then go to Montreal (Shopify) the following day, February 24th. We will have core speakers presenting in both cities, and kept spots for "local" speakers as well.</p>
-      <p>Registration details and lists of speakers are provided below.</p>
-      <p>This event is about bringing together the web accessibility community to share ideas, best practices, experiences and hopefully to raise the bar when it comes to digital inclusion. We want you at this event if you're interested in or curious about accessibility &amp; inclusive design.</p>
-      <div class="clearfix"></div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <nav id="darknav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">A11Y Tour</a>
+      </div>
 
-      <h2>Registration</h2>
-        <div class="row">
-            <div class="col-sm-6 mb-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title">Ottawa - February 23</h3>
-                        <p class="card-text">Carleton University - Canal Building, room 2104 </br>1125 Colonel By Dr, Ottawa, ON K1S 5B6</p>
-                        <a href="https://www.eventbrite.ca/e/a11ytour-2017-accessibility-tour-ottawa-tickets-42698731054" class="btn btn-primary">Register for Ottawa</a>
-                    </div>
-                </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll" href="#schedule">Schedule</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#locations">Locations</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#sponsors">Sponsors</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="fullwidth" class="homepage">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Heading Title Area -->
+          <div class="header-text white text-center text-uppercase">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                <img class="img-responsive center-block" src="assets/media/logo/home.svg" />
+              </div>
             </div>
-          <div class="col-sm-6">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Montreal - February 24</h3>
-                    <p class="card-text">Shopify offices</br>490 Rue de la Gauchetière O, Montréal, QC H2Z 0B2</p>
-                    <a href="https://www.eventbrite.ca/e/a11ytour-2018-accessibility-tour-montreal-tickets-42736954381" class="btn btn-primary">Register for Montreal</a>
-                </div>
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <h2 class="white">The best accessibility camp tour on the country</h2>
+                <h3 class="mrgn-50-top white sm-title">
+                  One day, one track, two cities
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="arrow text-center" aria-hidden="true">
+            <i class="fa fa-angle-down fa-4x"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.Header -->
+
+  <!-- Event Features -->
+  <section id="event-features">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <img src="assets/media/icons/svgs/workshops.svg" width="70" height="70" class="img-responsive center-block" alt="Workshops"
+            aria-hidden="true" />
+
+          <h2 class="accent text-center">Talks</h2>
+
+          <p>Come check what's new in accessibility, the current state of it, check how it's being taken care of accross different
+            platforms, learn how to actually do something about it and a lot more!</p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <img src="assets/media/icons/svgs/discussions.svg" width="76" height="80" class="img-responsive center-block" alt="Discussions"
+            aria-hidden="true" />
+
+          <h2 class="accent text-center">Discussions</h2>
+
+          <p>Let's have a chat! Speakers, active professionals and a11y advocates will be there waiting to have an opportunity
+            to bounce ideas and make the web great again!</p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <img src="assets/media/icons/svgs/ideas.svg" width="49" height="80" class="img-responsive center-block" alt="Ideas" aria-hidden="true"
+          />
+
+          <h2 class="accent text-center">Ideas</h2>
+
+          <p>This event is about bringing together the web accessibility community to share ideas, best practices, experiences
+            and hopefully to raise the bar when it comes to digital inclusion. We want you to come and share your ideas with
+            us about accessibility &amp; inclusive design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            <h2 class="text-center">
+              <span>Schedule</span>
+            </h2>
+            <p class="subtitle text-center" aria-hidden="true">
+              <i class="fa fa-angle-down fa-lg"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="timeline">
+        <!-- Timeline Item 01 -->
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="label label-main">8:30am to 9:00am</span>
+            <div class="timeline-content-container">
+
+              <h2>Intros &amp; Welcome</h2>
+
+              <p>We will start this amazing day with some information about the event, the local meetups you can get involved
+                with a a word from our sponsors.</p>
             </div>
           </div>
         </div>
 
-            <h2>Talks</h2>
-            <p>List of talks will be available soon. Here are some topics that will covered at this event:
-                <ul>
-                    <li>Artificial Intelligence and accessibility</li> 
-                    <li>Accessibility and search engine optimization </li>
-                    <li>WCAG 2.1</li>
-                    <li>Forms</li>
-                    <li>Benefits of accessibility </li>
-                </ul>
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content right">
+            <span class="label label-main">9:00am to 9:45am - Nic Steenhout</span>
+            <div class="timeline-content-container">
 
+              <h2>
+                Introduction to web accessibility
+              </h2>
+
+              <p>
+                You'll have heard about the importance of web accessibility. But what exactly is it? Who's affected by it? Why is it important
+                and why should your site be accessible? And if you're a developer, why should you ensure the accessibility
+                of the sites you create for your clients?
+              </p>
+              <p>
+                And once that's understood, what does an accessible site look like? Should we forget design and do a "text-only"site? Can
+                we use JavaScript? We'll explore base concepts to ensure a site's accessibility.
+              </p>
+
+              <h2>
+                L'accessibilité Web, ça mange quoi en hiver?
+              </h2>
+
+              <p>
+                Vous aurez probablement entendu parler de l'importance de l'accessibilité web. Mais c'est quoi, ça, au juste? Ça touche qui?
+                Pourquoi est-ce important, et pourquoi votre site devrait-il être accessible? Et si vous êtes dévelopeur,
+                pourquoi devriez-vous assurer l'accessibilité des sites que vous créez pour vos clients?
+              </p>
+              <p>
+                Mais une fois que c'est compris, de quoi ça a l'air, un site accessible? Est-ce qu'on doit oublier tout design et aller sur
+                un site "texte seulement"? Peut-on garder un peu de JavaScript? Nous explorerons quelques concepts de base
+                pour assurer l'accessibilité d'un site.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="label label-main">9:45am to 10:30am - David MacDonald</span>
+            <div class="timeline-content-container">
+
+              <h2>What's new in WCAG 2.1</h2>
+
+              <p>In this talk we'll go over the new Success Criteria in the WCAG 2.1 and learn about passive vs. active Success
+                Criteria with a veteran member of the team that wrote the standard.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content right">
+            <span class="label label-main">10:30am to 11:00am</span>
+            <div class="timeline-content-container">
+
+              <h2>Coffee Break</h2>
+
+              <p>Take a break! Stretch, grab a coffee, exchange ideas &amp; meet some new people!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="label label-main">11:00am to 11:30am - Myriam Jessier</span>
+            <div class="timeline-content-container">
+
+              <h2>Using SEO to get started with accessibility</h2>
+
+              <p>Accessibility can sometimes sound like a New Year's resolution. Something we care deeply about but somehow,
+                one month into our efforts, things start to slip. Why? Because let's be honest, sometimes, things can get
+                hairy, scary or simply too complicated to handle.</p>
+
+              <p>Search engine optimization (SEO) is one of the digital marketing skills that can help you achieve quick results
+                when it comes to accessibility. Let's go over some tips, tricks and tools that SEO experts use in their work
+                everyday to help them optimize websites.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content right">
+            <span class="label label-main">11:30am to 12:00pm</span>
+            <div class="timeline-content-container">
+
+              <h2>Accessibility Testing Using Screen Readers</h2>
+
+              <p>Testing websites using screen readers gives web developers the opportunity to make a real evaluation of their
+                code and help identify accessibility issues that could be missed in manual checkup, or neglected by automatic
+                verification tools. In this session we will demonstrate how blind people navigate the web and will show how
+                to use screen readers for accessibility testing of web pages including interactive components and web forms.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="label label-main">12:00pm to 1:00pm</span>
+            <div class="timeline-content-container">
+
+              <h2>Lunch break</h2>
+
+              <p>Let's fill up our bellies and get some more energy for the second part of our camp. Take the time to meet the
+                folks around you too!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content right">
+            <span class="label label-main">1:00pm to 2:00pm - Denis Boudreau</span>
+            <div class="timeline-content-container">
+
+              <h2>Accessibility in the age of artificial intelligence</h2>
+
+              <p>The promises of artificial intelligence-based technologies are drastically changing not only the way in which
+                we develop the Web, but also the way millions of people with disabilities and people over the age of 65 around
+                the World interact with it, and evolve in the digital landscape. Automated text equivalents based on deep
+                learning and conversational interfaces are but the tip of an iceberg of innovations on track to radically
+                change the face of accessibility as we know it. These changes will also affect our interactions in the real
+                world: self-driving cars, intelligent personal assistants, innovative wheelchairs and instant translation
+                interfaces represent a tiny portion of the innovations that have already begun contributing to breaking down
+                barriers for people with disabilities – and by extension, break down barriers for all humans. What might
+                the impact of these technologies be for the various trades of the Web? How can these innovations benefit
+                the whole of humanity? That is another angle we propose to explore, to give a sense of perspective into the
+                revolution that is about to take us by storm. Together, let’s glimpse into a future that may be much closer
+                than we think. Will you join us?</p>
+
+              <h2>L’accessibilité à l'ère de l'intelligence artificielle</h2>
+
+              <p>Les promesses des technologies basées sur l'intelligence artificielle modifient radicalement non seulement
+                la façon dont nous développons le Web, mais aussi la façon dont des millions de personnes handicapées et
+                de plus de 65 ans interagissent avec le monde, et évoluent dans le numérique. paysage. Les équivalents textuels
+                automatisés basés sur le deep learning et les interfaces conversationnelles ne sont que la pointe d'un iceberg
+                d'innovations en voie de changer radicalement le visage de l'accessibilité tel que nous le connaissons. Ces
+                changements affecteront également nos interactions dans le monde réel: les voitures autonomes, les assistants
+                personnels intelligents, les fauteuils roulants innovants et les interfaces de traduction instantanées représentent
+                une infime partie des innovations qui ont déjà commencé à contribuer à faire tomber les barrières pour les
+                personnes handicapées. Et par extension, abattre les barrières pour tous les humains. Quel pourrait être
+                l'impact de ces technologies sur les différents métiers du Web? Comment ces innovations peuvent-elles bénéficier
+                à l'ensemble de l'humanité? C'est un autre angle que nous proposons d'explorer, pour donner un sens de perspective
+                à la révolution qui est sur le point de nous prendre d'assaut. Ensemble, jetons un coup d'œil sur un avenir
+                qui pourrait être beaucoup plus proche que nous le pensons. Serez-vous des nôtres?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="label label-main">2:00pm to 2:30pm - Scott Vinkle</span>
+            <div class="timeline-content-container">
+
+              <h2>Creating accessible React apps</h2>
+
+              <p>React is a great way to create reusable, modular components that can be shared among projects. But how do you
+                ensure your React apps are usable by all? Scott Vinkle will share tips on how to build your React apps with
+                accessibility baked-in!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content right">
+            <span class="label label-main">2:30pm to 3:00pm</span>
+            <div class="timeline-content-container">
+
+              <h2>Coffee Break</h2>
+
+              <p>Take a break! Stretch, grab a coffee, exchange ideas &amp; meet some new people!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="label label-main">3:00pm to 3:30pm - Curtis Dulmage &amp; Max Hoffman</span>
+            <div class="timeline-content-container">
+
+              <h2>Draggable/Accessible</h2>
+
+              <p>Max and Curtis describe what it was like launching a successful open source library that got too popular for
+                its own good. Together, they give us a look into designing an accessible drag and drop library, as well as
+                a lesson in setting expectations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content right">
+            <span class="label label-main">3:30pm to 4:00pm </span>
+            <div class="timeline-content-container">
+
+              <h2>Ottawa - Don’t Forget the Simple Things: MS Word and PDF by Logan Trafford</h2>
+
+              <p>While technological advancements and coding enhancements allow us to create accessible, dynamic applications
+                and websites, it is quite often the simplest elements that create barriers for users. Logan will examine
+                some of the simple elements in MS Word documents, that help lead to the creation of an accessible PDF.</p>
+
+              <h2>Montréal - Videos and Accessibility by Isabella Federigi</h2>
+
+              <p>TBD</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="label label-main">4:30pm to 5:00pm - Daniel Gervais</span>
+            <div class="timeline-content-container">
+
+              <h2>Closing notes</h2>
+
+              <p>TBD</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" aria-hidden="true">
+            <i class="fa fa-star fa-lg"></i>
+          </div>
+          <div class="timeline-content right">
+            <span class="label label-main">5:00pm to 7:00pm</span>
+            <div class="timeline-content-container">
+
+              <h2>Cinq à sept</h2>
+
+              <p>Time to chill with the people you spent the day with. Take your time to talk to the speakers, ask questions
+                and anything else you'd like.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-</section>
-    
-<footer>
-    <div class="text-center"> 
-        <hr>
-        <h2>Sponsors and supporters</h2>
-        <ul class="list-unstyled list-inline pt-3 pb-3">
-            <li class="list-inline-item mr-5 mb-3 pb-3"><a href="https://www.deque.com/"><img src="img/deque.png" alt="Deque"></a></li>
-            <li class="list-inline-item mb-3 pb-3"><a href="http://www.ami.ca/"><img src="img/ami.png" alt="AMI Accessible Media inc"></a></li>
-            <li><a href="https://carleton.ca/read/"><img src="img/read.jpg" alt="READ Initiative"></a></li>
-            <li class="list-inline-item mr-5 mb-3 pb-3"><a href="https://www.meetup.com/a11yOttawa/"><img src="img/a11yyow.png" alt="Ottawa Digital Accessibility and Inclusive Design"></a></li>
-            <li class="list-inline-item mb-3 pb-3"><a href="https://www.meetup.com/a11yMTL"><img src="img/a11ymtl.png" alt="a11yMTL meetup - web accessibility and inclusive design"></a></li>
-        </ul>
+  </section>
+
+  <section id="locations">
+    <div class="container">
+      <!-- Title & Subtitle -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title-white">
+            <h2 class="text-center">
+              <span>Locations</span>
+            </h2>
+            <p class="subtitle white text-center">What works best for you? Pick a location and let's do this!</p>
+            <p class="subtitle text-center">
+              <i class="fa fa-angle-down fa-lg white"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="dark-box pddn-50">
+            <h2 class="accent">Ottawa/ON</h2>
+            <p class="lead-sm">
+              Carleton University - Canal Building, room 2104
+              <br/> 1125 Colonel By Dr
+              <br/> K1S 5B6
+            </p>
+            <p class="mrgn-20-top">
+              <a href="https://www.eventbrite.ca/e/a11ytour-2017-accessibility-tour-ottawa-tickets-42698731054" class="btn btn-main-color">
+                Register for Ottawa
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="dark-box pddn-50">
+            <h2 class="accent">Montréal/QC</h2>
+            <p class="lead-sm">
+              Shopify Montréal
+              <br/> 490 Rue de la Gauchetière O
+              <br/> H2Z 0B2
+            </p>
+            </p>
+            <p class="mrgn-20-top">
+              <a href="https://www.eventbrite.ca/e/a11ytour-2018-accessibility-tour-montreal-tickets-42736954381" class="btn btn-main-color">
+                Register for Montréal
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
+  </section>
+
+  <section id="sponsors">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            <h2 class="text-center">
+              <span>Sponsors</span>
+            </h2>
+            <p class="subtitle text-center">We couldn't make this happen without the help of our amazing sponsors</p>
+            <p class="subtitle text-center">
+              <i class="fa fa-angle-down fa-lg"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mrgn-80-top-btm">
+        <div class="col-md-offset-3 col-md-6 col-sm-12 col-xs-12">
+          <a href="https://www.shopify.com/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/shopify.png" alt="Shopify">
+          </a>
+        </div>
+      </div>
+
+      <div class="row mrgn-80-top-btm">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a href="https://www.deque.com/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/deque.png" alt="Deque">
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a href="http://www.adobe.ca/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/adobe.png" alt="Adobe">
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a href="http://www.ami.ca/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/ami.png" alt="AMI Accessible Media inc">
+          </a>
+        </div>
+      </div>
+
+      <div class="row mrgn-80-top-btm">
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <a href="https://www.nurun.com/en/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/nurun.png" alt="nurun">
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <a href="https://carleton.ca/read/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/read.png" alt="READ Initiative">
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <a href="https://www.meetup.com/a11yMTL/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/a11ymtl.png" alt="a11yMTL meetup - web accessibility and inclusive design">
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <a href="https://www.meetup.com/a11yOttawa/">
+            <img class="img-responsive center-block event-sponsor-logo" src="assets/media/sponsors/a11yyow.png" alt="Ottawa Digital Accessibility and Inclusive Design">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-9 col-lg-9">
+          <ul class="list-inline">
+            <li>
+              <a href="#schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="#locations">Locations</a>
+            </li>
+            <li>
+              <a href="#sponsors">Sponsors</a>
+            </li>
+          </ul>
+          <p class="copyright">Copyright
+            <i class="fa fa-copyright"></i> 2018 - a11y Tour</p>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3">
+          <ul class="list-inline social-buttons">
+            <li>
+              <a class="fa fa-twitter fa-lg" href="https://www.twitter.com/a11yTour" title="a11y tour twitter account"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/event-main.js"></script>
+  <script src="assets/js/jquery.easing.min.js"></script>
 </body>
 </html>
