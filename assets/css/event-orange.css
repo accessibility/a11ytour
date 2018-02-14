@@ -1026,6 +1026,11 @@ ul.social-buttons li a:active {
   font-size: 24px;
 }
 
+#timeline .label-main a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 #full-schedule .label-main {
   background-color: #9e0808;
   color: #fff;
