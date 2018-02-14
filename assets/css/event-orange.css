@@ -45,7 +45,7 @@ body {
 body {
   color: #141414;
   background: #fff;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -62,7 +62,7 @@ menu,
 nav,
 section,
 summary {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -93,7 +93,7 @@ h6,
 }
 
 .text-danger {
-  color: #F39C12;
+  color: #9e0808;
 }
 
 .lead-sm {
@@ -101,7 +101,7 @@ h6,
 }
 
 hr.border {
-  border-color: #F39C12;
+  border-color: #9e0808;
   border-width: 1px;
 }
 
@@ -112,7 +112,7 @@ hr.border-light {
 
 hr.border-sm {
   width: 50px;
-  border-color: #F39C12;
+  border-color: #9e0808;
   border-width: 3px;
 }
 
@@ -129,7 +129,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #F39C12;
+  color: #9e0808;
   text-decoration: none;
 }
 
@@ -140,7 +140,7 @@ a:focus {
 }
 
 .accent {
-  color: #F39C12
+  color: #9e0808
 }
 
 /* ========== Backgrounds ========== */
@@ -158,7 +158,7 @@ a:focus {
 }
 
 .accent-bg {
-  background: #F39C12
+  background: #9e0808
 }
 
 .gray-bg {
@@ -214,14 +214,14 @@ a:focus {
 
 #lightnav .navbar-nav>li>a:hover,
 #lightnav .navbar-nav>li>a:focus {
-  color: #F39C12;
+  color: #9e0808;
 }
 
 #lightnav.navbar-default .navbar-nav>.active>a,
 #lightnav.navbar-default .navbar-nav>.active>a:focus,
 #lightnav.navbar-default .navbar-nav>.active>a:hover {
   background: transparent;
-  color: #F39C12;
+  color: #9e0808;
 }
 
 #lightnav .navbar-brand {
@@ -246,7 +246,7 @@ a:focus {
 }
 
 #lightnav.navbar-default .navbar-toggle .icon-bar {
-  background-color: #F39C12;
+  background-color: #9e0808;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -278,14 +278,14 @@ a:focus {
 
 #darknav .navbar-nav>li>a:hover,
 #darknav .navbar-nav>li>a:focus {
-  color: #F39C12;
+  color: #f00;
 }
 
 #darknav.navbar-default .navbar-nav>.active>a,
 #darknav.navbar-default .navbar-nav>.active>a:focus,
 #darknav.navbar-default .navbar-nav>.active>a:hover {
   background: transparent;
-  color: #F39C12;
+  color: #f00;
 }
 
 #darknav .navbar-brand {
@@ -313,7 +313,7 @@ a:focus {
 }
 
 #darknav.navbar-default .navbar-toggle .icon-bar {
-  background-color: #F39C12;
+  background-color: #9e0808;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -409,9 +409,9 @@ video {
 }
 
 .form-control:focus {
-  border-color: #F39C12;
+  border-color: #9e0808;
   box-shadow: none;
-  border: 1px solid #F39C12;
+  border: 1px solid #9e0808;
 }
 
 ::-webkit-input-placeholder {
@@ -446,7 +446,7 @@ video {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 28px;
-  background: #F39C12;
+  background: #9e0808;
   color: #FFF;
   margin-top: 30%
 }
@@ -468,7 +468,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF
   }
   #video-wrap h2 {
@@ -488,7 +488,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 40%
   }
@@ -509,7 +509,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF
   }
   #video-wrap h2 {
@@ -529,7 +529,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 15%
   }
@@ -550,7 +550,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 10%
   }
@@ -571,7 +571,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 30%
   }
@@ -665,7 +665,7 @@ section .section-title-white {
 
 .section-title-color h2 span {
   position: relative;
-  color: #F39C12
+  color: #9e0808
 }
 
 .section-title-color h2 span::before,
@@ -746,11 +746,15 @@ section#locations {
 }
 
 .dark-box {
-  background: rgba(20, 20, 20, 0.7);
+  background: rgba(20, 20, 20, 0.95);
   color: #FFF;
   outline: solid #FFF 1px;
   outline-offset: -20px;
   margin-bottom: 40px
+}
+
+.dark-box .accent {
+  color: #fff9f9
 }
 
 /*********
@@ -814,7 +818,7 @@ section#locations {
   position: relative;
   top: 30%;
   left: 32%;
-  color: #F39C12;
+  color: #9e0808;
 }
 
 #timeline .timeline-item .timeline-content {
@@ -844,7 +848,7 @@ section#locations {
   height: 0;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  border-left: 7px solid #F39C12;
+  border-left: 7px solid #9e0808;
 }
 
 #timeline .timeline-item .timeline-content.right {
@@ -856,7 +860,7 @@ section#locations {
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 7px solid #F39C12;
+  border-right: 7px solid #9e0808;
 }
 
 @media screen and (max-width: 768px) {
@@ -877,7 +881,7 @@ section#locations {
     left: 10%;
     margin-left: -6px;
     border-left: 0;
-    border-right: 7px solid #F39C12;
+    border-right: 7px solid #9e0808;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
@@ -937,7 +941,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #F39C12;
+  background-color: #9e0808;
 }
 
 /*********
@@ -952,8 +956,8 @@ ul.social-buttons li a:active {
 
 .btn-main-color {
   color: #fff;
-  background-color: #F39C12;
-  border-color: #F39C12;
+  background-color: #9e0808;
+  border-color: #9e0808;
   border-radius: 0;
   text-transform: uppercase;
   font-weight: 500;
@@ -963,12 +967,12 @@ ul.social-buttons li a:active {
 .btn-main-color:focus,
 .btn-main-color.focus {
   color: #fff;
-  background-color: #F39C12;
-  border-color: #F39C12
+  background-color: #9e0808;
+  border-color: #9e0808
 }
 
 .btn-main-color:hover {
-  color: #F39C12;
+  color: #9e0808;
   background-color: #FFF;
   border-color: #FFF
 }
@@ -976,9 +980,9 @@ ul.social-buttons li a:active {
 /* ========== Button Main Ghost ========== */
 
 .btn-main-ghost {
-  color: #F39C12;
+  color: #9e0808;
   background-color: transparent;
-  border-color: #F39C12;
+  border-color: #9e0808;
   border-radius: 0;
   text-transform: uppercase;
   font-weight: 500;
@@ -988,14 +992,14 @@ ul.social-buttons li a:active {
 .btn-main-ghost:focus,
 .btn-main-ghost.focus {
   color: #fff;
-  background-color: #F39C12;
-  border-color: #F39C12
+  background-color: #9e0808;
+  border-color: #9e0808
 }
 
 .btn-main-ghost:hover {
   color: #FFF;
-  background-color: #F39C12;
-  border-color: #F39C12
+  background-color: #9e0808;
+  border-color: #9e0808
 }
 
 /*********
@@ -1003,7 +1007,7 @@ ul.social-buttons li a:active {
 *********/
 
 #timeline .label-main {
-  background-color: #F39C12;
+  background-color: #9e0808;
   color: #FFF;
   font-size: 16px;
   margin-top: 1px;
@@ -1016,9 +1020,8 @@ ul.social-buttons li a:active {
   padding-left: 17px;
 }
 
-
 #full-schedule .label-main {
-  background-color: #F39C12;
+  background-color: #9e0808;
   color: #FFF;
   font-size: 14px;
   margin-left: 0px;
@@ -1112,12 +1115,13 @@ header#fullwidth {
   overflow: hidden !important;
   /* FF scroll-bar */
 }
+
 /*
 header#fullwidth h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 28px;
-  background: #F39C12;
+  background: #9e0808;
   color: #FFF;
   margin-top: 30%
 } */
@@ -1185,7 +1189,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF
   }
   header#fullwidth h2 {
@@ -1205,7 +1209,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 5px;
   }
@@ -1216,7 +1220,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 30%;
   }
@@ -1227,7 +1231,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 5%
   }
@@ -1243,7 +1247,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #F39C12;
+    background: #9e0808;
     color: #FFF;
     margin-top: 40%
   }
@@ -1333,9 +1337,9 @@ section#full-schedule .nav>li>a:focus {
 section#full-schedule .nav-tabs.nav-justified>.active>a,
 section#full-schedule .nav-tabs.nav-justified>.active>a:hover,
 section#full-schedule .nav-tabs.nav-justified>.active>a:focus {
-  border: 0px solid #F39C12;
+  border: 0px solid #9e0808;
   border-bottom: 0;
-  background: #F39C12;
+  background: #9e0808;
   color: #555
 }
 
@@ -1409,7 +1413,7 @@ section#full-schedule .panel {
 }
 
 section#full-schedule .panel-default {
-  border-color: #F39C12;
+  border-color: #9e0808;
 }
 
 section#full-schedule .panel-default>.panel-heading {
@@ -1420,7 +1424,7 @@ section#full-schedule .panel-default>.panel-heading {
 }
 
 section#full-schedule .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-bottom: 0px solid #F39C12
+  border-bottom: 0px solid #9e0808
 }
 
 section#full-schedule .panel-default>.panel-heading .badge {
@@ -1429,12 +1433,12 @@ section#full-schedule .panel-default>.panel-heading .badge {
 }
 
 section#full-schedule .panel-default>.panel-footer+.panel-collapse>.panel-body {
-  border-bottom-color: #F39C12;
+  border-bottom-color: #9e0808;
 }
 
 section#full-schedule .panel-group .panel-heading+.panel-collapse>.panel-body,
 .panel-group .panel-heading+.panel-collapse>.list-group {
-  border-color: #F39C12;
+  border-color: #9e0808;
 }
 
 section#full-schedule .panel-title {
@@ -1525,7 +1529,7 @@ section#full-schedule .coffee-break p {
 }
 
 .news-item .date {
-  background-color: #F39C12;
+  background-color: #F00;
   top: 0;
   color: #fff;
   left: 0;
@@ -1583,7 +1587,7 @@ section#full-schedule .coffee-break p {
 }
 
 .news-item footer i {
-  color: #F39C12;
+  color: #9e0808;
   margin-right: 5px
 }
 
@@ -1632,7 +1636,7 @@ section#full-schedule .coffee-break p {
 }
 
 #latest-news .news-item .date {
-  background-color: #F39C12;
+  background-color: #9e0808;
   top: 0;
   color: #fff;
   left: 0;
@@ -1690,7 +1694,7 @@ section#full-schedule .coffee-break p {
 }
 
 #latest-news .news-item footer i {
-  color: #F39C12;
+  color: #9e0808;
   margin-right: 5px
 }
 
@@ -1746,7 +1750,7 @@ section#full-schedule .coffee-break p {
 #sidebar ul.social-buttons li a:hover,
 #sidebar ul.social-buttons li a:focus,
 #sidebar ul.social-buttons li a:active {
-  background-color: #F39C12;
+  background-color: #9e0808;
 }
 
 /*********
@@ -1769,7 +1773,7 @@ section#full-schedule .coffee-break p {
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
-  border: 1px solid #F39C12;
+  border: 1px solid #9e0808;
   border-radius: 0px
 }
 
@@ -2038,7 +2042,6 @@ section#full-schedule .coffee-break p {
   }
 }
 
-
 .event-sponsor-logo {
   padding: 30px 0;
 }
@@ -2059,4 +2062,8 @@ section#full-schedule .coffee-break p {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
