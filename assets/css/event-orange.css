@@ -133,6 +133,10 @@ a:focus {
   text-decoration: none;
 }
 
+[tabindex='-1']:focus {
+  outline: 0;
+}
+
 /* ========== Colours ========== */
 
 .white {
