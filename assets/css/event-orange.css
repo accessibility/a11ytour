@@ -935,7 +935,6 @@ ul.social-buttons li a {
   border-radius: 0;
   font-size: 14px;
   line-height: 30px;
-  outline: 0px none;
   color: #fff;
   background-color: #141414;
   -webkit-transition: all 0.3s;
@@ -1755,7 +1754,6 @@ section#full-schedule .coffee-break p {
   border-radius: 0;
   font-size: 24px;
   line-height: 50px;
-  outline: 0px none;
   color: #fff;
   background-color: #141414;
   -webkit-transition: all 0.3s;
