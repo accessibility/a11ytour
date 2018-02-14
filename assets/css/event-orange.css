@@ -278,14 +278,14 @@ a:focus {
 
 #darknav .navbar-nav>li>a:hover,
 #darknav .navbar-nav>li>a:focus {
-  color: #9e0808;
+  color: #f00;
 }
 
 #darknav.navbar-default .navbar-nav>.active>a,
 #darknav.navbar-default .navbar-nav>.active>a:focus,
 #darknav.navbar-default .navbar-nav>.active>a:hover {
   background: transparent;
-  color: #9e0808;
+  color: #f00;
 }
 
 #darknav .navbar-brand {
@@ -746,11 +746,15 @@ section#locations {
 }
 
 .dark-box {
-  background: rgba(20, 20, 20, 0.7);
+  background: rgba(20, 20, 20, 0.95);
   color: #FFF;
   outline: solid #FFF 1px;
   outline-offset: -20px;
   margin-bottom: 40px
+}
+
+.dark-box .accent {
+  color: #fff9f9
 }
 
 /*********
@@ -1016,7 +1020,6 @@ ul.social-buttons li a:active {
   padding-left: 17px;
 }
 
-
 #full-schedule .label-main {
   background-color: #9e0808;
   color: #FFF;
@@ -1112,6 +1115,7 @@ header#fullwidth {
   overflow: hidden !important;
   /* FF scroll-bar */
 }
+
 /*
 header#fullwidth h1 {
   text-transform: uppercase;
@@ -2038,7 +2042,6 @@ section#full-schedule .coffee-break p {
   }
 }
 
-
 .event-sponsor-logo {
   padding: 30px 0;
 }
@@ -2060,7 +2063,6 @@ section#full-schedule .coffee-break p {
     padding-bottom: 20px;
   }
 }
-
 
 .navbar-brand {
   font-family: 'Ubuntu Condensed', sans-serif;
