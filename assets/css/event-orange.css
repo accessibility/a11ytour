@@ -93,7 +93,7 @@ h6,
 }
 
 .text-danger {
-  color: #9e0808;
+  color: #C50A0A;
 }
 
 .lead-sm {
@@ -101,7 +101,7 @@ h6,
 }
 
 hr.border {
-  border-color: #9e0808;
+  border-color: #C50A0A;
   border-width: 1px;
 }
 
@@ -112,7 +112,7 @@ hr.border-light {
 
 hr.border-sm {
   width: 50px;
-  border-color: #9e0808;
+  border-color: #C50A0A;
   border-width: 3px;
 }
 
@@ -129,7 +129,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #9e0808;
+  color: #C50A0A;
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ a:focus {
 }
 
 .accent {
-  color: #9e0808;
+  color: #C50A0A;
 }
 
 /* ========== Backgrounds ========== */
@@ -162,7 +162,7 @@ a:focus {
 }
 
 .accent-bg {
-  background: #9e0808;
+  background: #C50A0A;
 }
 
 .gray-bg {
@@ -223,14 +223,14 @@ a:focus {
 
 #lightnav .navbar-nav > li > a:hover,
 #lightnav .navbar-nav > li > a:focus {
-  color: #9e0808;
+  color: #C50A0A;
 }
 
 #lightnav.navbar-default .navbar-nav > .active > a,
 #lightnav.navbar-default .navbar-nav > .active > a:focus,
 #lightnav.navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
-  color: #9e0808;
+  color: #C50A0A;
 }
 
 #lightnav .navbar-brand {
@@ -255,7 +255,7 @@ a:focus {
 }
 
 #lightnav.navbar-default .navbar-toggle .icon-bar {
-  background-color: #9e0808;
+  background-color: #C50A0A;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -322,7 +322,7 @@ a:focus {
 }
 
 #darknav.navbar-default .navbar-toggle .icon-bar {
-  background-color: #9e0808;
+  background-color: #C50A0A;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -418,9 +418,9 @@ video {
 }
 
 .form-control:focus {
-  border-color: #9e0808;
+  border-color: #C50A0A;
   box-shadow: none;
-  border: 1px solid #9e0808;
+  border: 1px solid #C50A0A;
 }
 
 ::-webkit-input-placeholder {
@@ -455,7 +455,7 @@ video {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 28px;
-  background: #9e0808;
+  background: #C50A0A;
   color: #fff;
   margin-top: 30%;
 }
@@ -477,7 +477,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
   }
   #video-wrap h2 {
@@ -497,7 +497,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
     margin-top: 40%;
   }
@@ -518,7 +518,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
   }
   #video-wrap h2 {
@@ -538,7 +538,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
     margin-top: 15%;
   }
@@ -559,7 +559,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
     margin-top: 10%;
   }
@@ -580,7 +580,7 @@ video {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
     margin-top: 30%;
   }
@@ -674,7 +674,7 @@ section .section-title-white {
 
 .section-title-color h2 span {
   position: relative;
-  color: #9e0808;
+  color: #C50A0A;
 }
 
 .section-title-color h2 span::before,
@@ -827,7 +827,7 @@ section#locations {
   position: relative;
   top: 30%;
   left: 32%;
-  color: #9e0808;
+  color: #C50A0A;
 }
 
 #timeline .timeline-item .timeline-content {
@@ -857,7 +857,7 @@ section#locations {
   height: 0;
   border-top: 0px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #9e0808;
+  border-left: 15px solid #C50A0A;
 }
 
 #timeline .timeline-item .timeline-content.right {
@@ -869,7 +869,7 @@ section#locations {
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 15px solid #9e0808;
+  border-right: 15px solid #C50A0A;
 }
 
 @media screen and (max-width: 768px) {
@@ -890,7 +890,7 @@ section#locations {
     left: 10%;
     margin-left: -6px;
     border-left: 0;
-    border-right: 7px solid #9e0808;
+    border-right: 7px solid #C50A0A;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
@@ -949,7 +949,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #9e0808;
+  background-color: #C50A0A;
 }
 
 /*********
@@ -964,8 +964,8 @@ ul.social-buttons li a:active {
 
 .btn-main-color {
   color: #fff;
-  background-color: #9e0808;
-  border-color: #9e0808;
+  background-color: #C50A0A;
+  border-color: #C50A0A;
   border-radius: 0;
   text-transform: uppercase;
   font-weight: 500;
@@ -975,12 +975,12 @@ ul.social-buttons li a:active {
 .btn-main-color:focus,
 .btn-main-color.focus {
   color: #fff;
-  background-color: #9e0808;
-  border-color: #9e0808;
+  background-color: #C50A0A;
+  border-color: #C50A0A;
 }
 
 .btn-main-color:hover {
-  color: #9e0808;
+  color: #C50A0A;
   background-color: #fff;
   border-color: #fff;
 }
@@ -988,9 +988,9 @@ ul.social-buttons li a:active {
 /* ========== Button Main Ghost ========== */
 
 .btn-main-ghost {
-  color: #9e0808;
+  color: #C50A0A;
   background-color: transparent;
-  border-color: #9e0808;
+  border-color: #C50A0A;
   border-radius: 0;
   text-transform: uppercase;
   font-weight: 500;
@@ -1000,14 +1000,14 @@ ul.social-buttons li a:active {
 .btn-main-ghost:focus,
 .btn-main-ghost.focus {
   color: #fff;
-  background-color: #9e0808;
-  border-color: #9e0808;
+  background-color: #C50A0A;
+  border-color: #C50A0A;
 }
 
 .btn-main-ghost:hover {
   color: #fff;
-  background-color: #9e0808;
-  border-color: #9e0808;
+  background-color: #C50A0A;
+  border-color: #C50A0A;
 }
 
 /*********
@@ -1015,7 +1015,7 @@ ul.social-buttons li a:active {
 *********/
 
 #timeline .label-main {
-  background-color: #9e0808;
+  background-color: #C50A0A;
   color: #fff;
   font-size: 16px;
   margin-top: 1px;
@@ -1036,7 +1036,7 @@ ul.social-buttons li a:active {
 }
 
 #full-schedule .label-main {
-  background-color: #9e0808;
+  background-color: #C50A0A;
   color: #fff;
   font-size: 14px;
   margin-left: 0px;
@@ -1136,7 +1136,7 @@ header#fullwidth h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 28px;
-  background: #9e0808;
+  background: #C50A0A;
   color: #FFF;
   margin-top: 30%
 } */
@@ -1204,7 +1204,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
   }
   header#fullwidth h2 {
@@ -1224,7 +1224,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 28px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
     margin-top: 5px;
   }
@@ -1235,7 +1235,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
     margin-top: 30%;
   }
@@ -1246,7 +1246,7 @@ header#fullwidth .header-text {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
-    background: #9e0808;
+    background: #C50A0A;
     color: #fff;
     margin-top: 5%;
   }
@@ -1351,9 +1351,9 @@ section#full-schedule .nav > li > a:focus {
 section#full-schedule .nav-tabs.nav-justified > .active > a,
 section#full-schedule .nav-tabs.nav-justified > .active > a:hover,
 section#full-schedule .nav-tabs.nav-justified > .active > a:focus {
-  border: 0px solid #9e0808;
+  border: 0px solid #C50A0A;
   border-bottom: 0;
-  background: #9e0808;
+  background: #C50A0A;
   color: #555;
 }
 
@@ -1426,7 +1426,7 @@ section#full-schedule .panel {
 }
 
 section#full-schedule .panel-default {
-  border-color: #9e0808;
+  border-color: #C50A0A;
 }
 
 section#full-schedule .panel-default > .panel-heading {
@@ -1441,7 +1441,7 @@ section#full-schedule
   > .panel-heading
   + .panel-collapse
   > .panel-body {
-  border-bottom: 0px solid #9e0808;
+  border-bottom: 0px solid #C50A0A;
 }
 
 section#full-schedule .panel-default > .panel-heading .badge {
@@ -1454,7 +1454,7 @@ section#full-schedule
   > .panel-footer
   + .panel-collapse
   > .panel-body {
-  border-bottom-color: #9e0808;
+  border-bottom-color: #C50A0A;
 }
 
 section#full-schedule
@@ -1463,7 +1463,7 @@ section#full-schedule
   + .panel-collapse
   > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
-  border-color: #9e0808;
+  border-color: #C50A0A;
 }
 
 section#full-schedule .panel-title {
@@ -1612,7 +1612,7 @@ section#full-schedule .coffee-break p {
 }
 
 .news-item footer i {
-  color: #9e0808;
+  color: #C50A0A;
   margin-right: 5px;
 }
 
@@ -1661,7 +1661,7 @@ section#full-schedule .coffee-break p {
 }
 
 #latest-news .news-item .date {
-  background-color: #9e0808;
+  background-color: #C50A0A;
   top: 0;
   color: #fff;
   left: 0;
@@ -1719,7 +1719,7 @@ section#full-schedule .coffee-break p {
 }
 
 #latest-news .news-item footer i {
-  color: #9e0808;
+  color: #C50A0A;
   margin-right: 5px;
 }
 
@@ -1774,7 +1774,7 @@ section#full-schedule .coffee-break p {
 #sidebar ul.social-buttons li a:hover,
 #sidebar ul.social-buttons li a:focus,
 #sidebar ul.social-buttons li a:active {
-  background-color: #9e0808;
+  background-color: #C50A0A;
 }
 
 /*********
@@ -1797,7 +1797,7 @@ section#full-schedule .coffee-break p {
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
-  border: 1px solid #9e0808;
+  border: 1px solid #C50A0A;
   border-radius: 0px;
 }
 
